@@ -13,28 +13,40 @@
             padding: 20px;
         }
         
-        .website-header {
+        .HEADER {
+            padding: 4px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            position: absolute;
             background-color: rgb(87, 194, 221);
-            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
         }
-        
-        .logo {
-            width: 50px;
-            height: 50px;
-        }
-        
-        .website-title {
-            display: inline-block;
+
+        .header-text {
             color: white;
             font-size: 28px;
-            margin-left: 10px;
+            margin-top: 10px;
+            text-transform: uppercase;
+            text-align: center;
         }
 
         .button-container {
+            margin-top: 20px;
             display: flex;
             justify-content: center;
         }
         
+        .icon {     
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 12.5%;
+        }
+
         button {
             margin: 5px;
             padding: 10px;
@@ -61,9 +73,9 @@
     </script>
 </head>
 <body>
-    <div class="website-header">
-        <img src="https://i.ibb.co/SVrWQqP/EPV.png" class="logo">
-        <h1 class="website-title">Epic Pet Values</h1>
+    <div class="HEADER">
+        <img src="https://i.ibb.co/SVrWQqP/EPV.png" class="icon">
+        <h1 class="header-text">Epic Pet Values</h1>
     </div>
 
     <div class="button-container">
