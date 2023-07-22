@@ -33,16 +33,31 @@
             margin-right: auto;
             width: 12.5%;
         }
+
+        button {
+            margin: 5px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
     </style>
+    <script>
+        function redirectTo(url) {
+            document.location = url;
+        }
+    </script>
 </head>
 <body>
     <div class="HEADER">
         <img src="https://i.ibb.co/SVrWQqP/EPV.png" class="icon"><br>
-        <div class="button-container"> <!-- Added a container div -->
-            <button>power pets</button>
-            <button>event pets</button>
-            <button>huge pets</button>
-            <button>titanic ... pets????</button>
+        <div class="button-container">
+            <button onclick="redirectTo('')">power pets</button>
+            <button onclick="redirectTo('')">event pets</button>
+            <button onclick="redirectTo('')">huge pets</button>
+            <button onclick="redirectTo('')">titanic ... pets????</button>
         </div>
     </div>
 </body>
