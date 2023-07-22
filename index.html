@@ -1,89 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Epic Pet Values</title>
-<style>
-html {
-margin: 0;
-padding: 0;
-}
+    <title>Epic Pet Values</title>
+    <style>
+        html {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            background-image: url("https://i.ibb.co/TtdLvVZ/image.png");
+            padding: 20px;
+        }
+        
+        .HEADER {
+            padding: 4px;
+            left: 0;
+            top: 0;
+            width: 100%;
+            position: absolute;
+            background-color: rgb(87, 194, 221);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
 
-body {
-background-image: url("https://i.ibb.co/TtdLvVZ/image.png");
-padding: 20px;
-}
+        .header-text {
+            color: white;
+            font-size: 28px;
+            margin-top: 10px;
+            text-transform: uppercase;
+            text-align: center;
+        }
 
-.HEADER {
-padding: 4px;
-left: 0;
-top: 0;
-width: 100%;
-position: absolute;
-background-color: rgb(87, 194, 221);
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-}
+        .button-container {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .icon {     
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 12.5%;
+        }
 
-.header-text {
-color: white;
-font-size: 28px;
-margin-top: 10px;
-text-transform: uppercase;
-text-align: center;
-}
+        button {
+            margin: 5px;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
 
-.button-container {
-margin-top: 20px;
-display: flex;
-justify-content: center;
-}
+        button:hover {
+            background-color: #6fbf68;
+        }
 
-.icon { 
-display: block;
-margin-left: auto;
-margin-right: auto;
-width: 12.5%;
-}
-
-button {
-margin: 5px;
-padding: 10px;
-background-color: #4CAF50;
-color: white;
-border: none;
-border-radius: 5px;
-cursor: pointer;
-transition: background-color 0.3s ease;
-}
-
-button:hover {
-background-color: #6fbf68;
-}
-
-button:active {
-background-color: #8fd48f;
-}
-</style>
-<script>
-function redirectTo(url) {
-document.location = url;
-}
-</script>
+        button:active {
+            background-color: #8fd48f;
+        }
+    </style>
+    <script>
+        function redirectTo(url) {
+            document.location = url;
+        }
+    </script>
 </head>
 <body>
-<div class="HEADER">
-<img src="https://i.ibb.co/SVrWQqP/EPV.png" class="icon">
-<div class="button-container">
-<button onclick="redirectTo('./')">home</button>
-<button onclick="redirectTo('powerpets')">power pets</button>
-<button onclick="redirectTo('eventpets')">event pets</button>
-<button onclick="redirectTo('hugepets')">huge pets</button>
-<button onclick="redirectTo('titanic')">titanic ... pets????</button>
-</div>
-</div>
-<h1 class="header-text">Epic Pet Values</h1>
+    <div class="HEADER">
+        <img src="https://i.ibb.co/SVrWQqP/EPV.png" class="icon">
+        <div class="button-container">
+            <button onclick="redirectTo('./')">home</button>
+            <button onclick="redirectTo('powerpets')">power pets</button>
+            <button onclick="redirectTo('eventpets')">event pets</button>
+            <button onclick="redirectTo('hugepets')">huge pets</button>
+            <button onclick="redirectTo('titanic')">titanic ... pets????</button>
+        </div>
+    </div>
+        <h1 class="header-text">Epic Pet Values</h1>
 
 </body>
 </html>
