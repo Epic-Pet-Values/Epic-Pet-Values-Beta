@@ -12,6 +12,7 @@
             background-image: url("https://i.ibb.co/TtdLvVZ/image.png");
             padding: 20px;
         }
+        
         .HEADER {
             padding: 4px;
             left: 0;
@@ -19,7 +20,10 @@
             width: 100%;
             position: absolute;
             background-color: rgb(87, 194, 221);
+            display: flex; /* Added flexbox here */
+            justify-content: center; /* Align items horizontally */
         }
+        
         .icon {     
             display: block;
             margin-left: auto;
@@ -29,6 +33,14 @@
     </style>
 </head>
 <body>
-    <div class="HEADER"><img src="https://i.ibb.co/SVrWQqP/EPV.png" class="icon"><br> <button>turn into fat joe mama</button> <--- that was a test ignore it</div>
+    <div class="HEADER">
+        <img src="https://i.ibb.co/SVrWQqP/EPV.png" class="icon"><br>
+        <div class="button-container"> <!-- Added a container div -->
+            <button>power pets</button>
+            <button>event pets</button>
+            <button>huge pets</button>
+            <button>titanic ... pets????</button>
+        </div>
+    </div>
 </body>
 </html>
