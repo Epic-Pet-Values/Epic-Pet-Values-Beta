@@ -1,2 +1,2 @@
 # Epic-Pet-Values
-Epic Pet Values website ;)
+Epic Pet Values beta website ;)
